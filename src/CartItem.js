@@ -47,7 +47,7 @@ class CartItem extends React.Component {
                 </div>
                 <div className="right-block">
         <div style ={{fontSize:25,color: '#020204'}}>{title}</div>
-        <div style={{ color: '#E45B27' }}>{price}</div>
+        <div style={{ color: '#E45B27' }}><span>&#8377;</span> {price}</div>
         <div style={{ color: '#5F5F5F' }}>Qty: {Qty}</div>
                     <div className="cart-item-actions">
                         {/* buttons */}

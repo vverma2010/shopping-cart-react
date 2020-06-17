@@ -30,3 +30,8 @@ body {
   cursor: pointer;
   transform: scale(1.1, 1.1);
 }
+.cart
+{
+  display: flex;
+  flex-direction: column;
+}
